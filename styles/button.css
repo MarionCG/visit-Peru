@@ -1,0 +1,17 @@
+.button-red {
+	background-color: #F81313;
+	color: white;
+	padding:16px;
+	border-radius: 6px;
+	font-weight: bold;
+	display: block;
+	width: 25%;
+	border: 1px solid #F81313;
+	transition: 1s;
+	text-align: center;
+}
+
+.button-red:hover {
+	background-color: white;
+	color: #F81313;
+	transition: 1s;

@@ -1,0 +1,90 @@
+@import url(https://fonts.googleapis.com/css2?family=Cinzel&family=Dancing+Script:wght@600&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap);
+@import url(banner.css);
+@import url("button.css");
+@import url("cards.css");
+@import url("footer.css");
+@import url("destination.css");
+body{
+	margin: 0;
+	background-color: #FDFAFB;
+
+}
+
+h1{
+	font-family: Cinzel;
+	font-size: 58px; 
+}
+h2{
+	font-family: Cinzel;
+	font-size: 28px;
+	text-shadow: 8px 8px 8px grey;
+}
+
+h3,h5{
+	font-family: Cinzel;
+}
+
+h4{
+	font-family: dancing script;
+	font-size: 72px;
+	text-shadow: 8px 8px 8px #d52b1e;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+.conteneur{
+	width: 80%;
+	margin: 0 auto;
+
+}
+
+.presentation{
+	width: 25%;
+	margin: 0 auto;
+}
+
+.article{
+	text-align: center;
+	color: #d52b1e;
+}
+.button-red{
+	text-align: center;
+}
+
+.ma-class{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 16px;
+	margin-left: 60px;
+	margin-bottom: 60px;
+}
+.carousel-item{
+	width: 800px;
+	margin-left: 300px;
+	margin-bottom: 100px;
+}
+	
+.list-inline li {
+display: inline;
+}
+.list-inline{
+padding: 0px
+}
+.list-inline a{
+font-size: 48px;
+color: white;
+}
+.list-inline a:hover {
+color: black;
+}
+.list-inline i:hover {
+transform: rotate(360deg);
+transition: 1s;
+}
+.list-inline i{
+padding: 0px;
+margin: 8px;
+}
